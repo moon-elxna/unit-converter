@@ -1,0 +1,8 @@
+#längeRechner {
+    display: flex;
+    align-items: center;
+}
+
+.rechner {
+    margin: 20px;
+}
