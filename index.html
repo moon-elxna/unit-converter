@@ -16,7 +16,7 @@
 
             <div class="calc">
                 <p>cm</p>
-                <input id="cm" type="number">
+                <input id="cm" type="number" oninput="convertToM()">
             </div>
 
             <div class="calc">
@@ -25,12 +25,12 @@
 
             <div class="calc">
                 <p>m</p>
-                <input id="m" type="number">
+                <input id="m" type="number" oninput="convertToCm()">
             </div>
 
         </div>
 
-        <div class="button-container"><button onclick="convert()">umrechnen</button></div>
+        <!-- <div class="button-container"><button onclick="convert()">umrechnen</button></div> -->
 
     </div>
     <script src="script.js"></script>
