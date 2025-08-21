@@ -70,3 +70,32 @@ button:active {
     justify-content: center;
     margin-top: 20px;
 }
+
+
+/* Media Query für Mobilgeräte */
+@media (max-width: 600px) {
+    #lenghtcalc {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+
+    .calc {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #lenght {
+        padding: 4vh 2vw;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,6 +1,19 @@
+function convertToM(){
+
+    const cm = Number(document.getElementById("cm").value) 
+    let result = document.getElementById("m").value = (cm /100);
+
+}
+
+
+function convertToCm(){
+    const m = Number(document.getElementById("m").value)
+    let result = document.getElementById("cm").value = (m*100); 
+
+}
+
 function setLang(){
     let control = document.getElementById("buttonLang").innerHTML;
-    console.log(control)
 
     if (control == "Deutsch"){
         document.getElementById("title").innerHTML = "Einheiten Umrechner";
@@ -20,27 +33,8 @@ function setLang(){
     }
 
     else {
-        alert("Erro beim Sprachenwechsel. / Error when changing language.")
+        alert("Error beim Sprachenwechsel. / Error when changing language.")
     }
-
-}
-
-
-function convertToM(){
-
-    const cm = Number(document.getElementById("cm").value)
-    let result =  cm /100
-    console.log(result)
-    document.getElementById("m").value = result;
-
-}
-
-
-function convertToCm(){
-    const m = Number(document.getElementById("m").value)
-    let result = m*100
-    console.log(result)
-    document.getElementById("cm").value = result; 
 
 }
 
@@ -50,12 +44,10 @@ function convertToCm(){
 
     if (cm != 0){
        let result =  cm /100
-       console.log(result)
        document.getElementById("m").value = result;
     }
     else if (m != 0){
         let result = m*100
-        console.log(result)
         document.getElementById("cm").value = result;
     }
 
