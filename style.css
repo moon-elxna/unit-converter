@@ -16,12 +16,30 @@
     margin: 20px;
 }
 
+input {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
 h1 {
     text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+h2 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 
 p {
     text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
 /* button {
@@ -54,3 +72,4 @@ button:active {
 }
 
 */
+/* more infos in comment in script.js */

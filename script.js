@@ -1,3 +1,30 @@
+function setLang(){
+    let control = document.getElementById("buttonLang").innerHTML;
+    console.log(control)
+
+    if (control == "Deutsch"){
+        document.getElementById("title").innerHTML = "Einheiten Umrechner";
+        document.getElementById("h1").innerHTML = "Einheiten Umrechner";
+        document.getElementById("h2").innerHTML = "Länge";
+        document.getElementById("buttonLang").innerHTML = "English";
+
+    }
+
+    else if (control =="English") {
+    
+        document.getElementById("title").innerHTML = "Unit Converter";
+        document.getElementById("h1").innerHTML = "Unit Converter";
+        document.getElementById("h2").innerHTML = "Lenght";
+        document.getElementById("buttonLang").innerHTML = "Deutsch";
+
+    }
+
+    else {
+        alert("Erro beim Sprachenwechsel. / Error when changing language.")
+    }
+
+}
+
 
 function convertToM(){
 
@@ -38,4 +65,4 @@ function convertToCm(){
 
 }*/
 
-//this function was a part of the first version, where i used a button in the html
+//this function was a part of the first version, where i used a button in the html 
