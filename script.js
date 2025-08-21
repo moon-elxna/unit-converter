@@ -17,6 +17,7 @@ function setLang(){
 
     if (control == "Deutsch"){
         document.getElementById("title").innerHTML = "Einheiten Umrechner";
+        document.getElementById("desc").innerHTML = "Einheiten Umrechner – Einfache Umrechnung von Längeneinheiten wie Zentimeter und Meter.";
         document.getElementById("h1").innerHTML = "Einheiten Umrechner";
         document.getElementById("h2").innerHTML = "Länge";
         document.getElementById("buttonLang").innerHTML = "English";
@@ -24,8 +25,8 @@ function setLang(){
     }
 
     else if (control =="English") {
-    
         document.getElementById("title").innerHTML = "Unit Converter";
+        document.getElementById("desc").innerHTML = "Units Converter – Simple conversion of length units such as centimeters and meters.";    
         document.getElementById("h1").innerHTML = "Unit Converter";
         document.getElementById("h2").innerHTML = "Lenght";
         document.getElementById("buttonLang").innerHTML = "Deutsch";
