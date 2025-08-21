@@ -23,7 +23,7 @@ input {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 
-    border-radius: 2%;
+    border-radius: 1%;
     border-width: 5px;
     border-style: solid;
     border-color: white;
@@ -95,7 +95,6 @@ button:active {
         width: 100%;
         box-sizing: border-box;
     }
-
 
     .button-container {
         flex-direction: column;

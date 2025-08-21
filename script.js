@@ -1,14 +1,14 @@
 function convertToM(){
 
     const cm = Number(document.getElementById("cm").value) 
-    let result = document.getElementById("m").value = (cm /100);
+    document.getElementById("m").value = (cm /100);
 
 }
 
 
 function convertToCm(){
     const m = Number(document.getElementById("m").value)
-    let result = document.getElementById("cm").value = (m*100); 
+    document.getElementById("cm").value = (m*100); 
 
 }
 
